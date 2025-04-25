@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.bg-blue {
+  background-color: #007EA7;
+}
+
+nav div {
+  padding-left: 3px;
+  padding-right: 3px;
+}
