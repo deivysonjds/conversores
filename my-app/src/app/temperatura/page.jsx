@@ -62,9 +62,6 @@ export default function Temperatura() {
 
 	return (
 		<div >
-			<header>
-				<NavHome />
-			</header>
 			<main className="flex flex-col justify-center items-center">
 				<TitlePage title={"Conversor de temperatura"} />
 				<Conversor calculate={calculate} typeConversor={"temperatura"} options={listConversor} result={result} />

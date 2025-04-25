@@ -56,9 +56,6 @@ export default function Medidas() {
 
 	return (
 		<div >
-			<header>
-				<NavHome />
-			</header>
 			<main className="flex flex-col justify-center items-center">
 				<TitlePage title={"Conversor de medidas"} />
 				<Conversor calculate={calculate} typeConversor={"medida"} options={listConversor} result={result} />

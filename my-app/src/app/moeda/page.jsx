@@ -22,9 +22,6 @@ export default function Moeda() {
 
 	return (
 		<div >
-			<header>
-				<NavHome />
-			</header>
 			<main className="flex flex-col justify-center items-center">
 				<TitlePage title={"Conversor de moeda"} />
 				<Conversor calculate={calculate} typeConversor={"moeda"} options={listConversor} result={result} />

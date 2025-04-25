@@ -6,9 +6,6 @@ import TextSobre from "@/components/textSobre";
 export default function Sobre() {
 	return (
 		<div >
-			<header>
-				<NavHome />
-			</header>
 			<main className="flex flex-col justify-center items-center">
 				<TitlePage title={"Sobre"} />
 				<img className="w-[250px] rounded-3xl hover:scale-105 hover:rotate-3 transition" src="./perfil.JPG" alt="" />

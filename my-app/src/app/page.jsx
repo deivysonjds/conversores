@@ -7,9 +7,6 @@ import ButtonToPages from "@/components/buttonToPages";
 export default function Home() {
 	return (
 		<div >
-			<header>
-				<NavHome />
-			</header>
 			<main className="flex flex-col justify-center items-center">
 				<TitlePage title={"Home"} />
 				<TextHome />
