@@ -14,10 +14,10 @@ export default function Moeda() {
 		}
 
 		if(m1 == "USD"){
-			return setResult(valueInitial * 5.8419)
+			return setResult((valueInitial * 5.8419).toFixed(3))
 		}
 
-		return setResult(valueInitial / 5.8419)
+		return setResult((valueInitial / 5.8419).toFixed(3))
 	}
 
 	return (
