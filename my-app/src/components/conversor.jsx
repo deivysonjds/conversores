@@ -15,7 +15,7 @@ export default function Conversor({
     
     useEffect(()=>{
         calculate(option1, option2, valueInitial)
-    },[])
+    })
 
     return (
         <>
